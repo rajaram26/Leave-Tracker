@@ -14,7 +14,7 @@ public class AdminController {
 
     @GetMapping("/testApi")
     public String Test(){
-        return "Success API is successfull";
+        return "Success API is working successfully";
     }
 
     @PostMapping("/saveEmployee")
