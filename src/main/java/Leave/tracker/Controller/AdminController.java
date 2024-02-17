@@ -16,6 +16,10 @@ public class AdminController {
     public String Test(){
         return "Success API is working successfully";
     }
+    @GetMapping("/testApi")
+    public String Test2(){
+        return "Success API is working successfully";
+    }
 
     @PostMapping("/saveEmployee")
     public String saveEmployee(@RequestBody EmployeeDetails employeeDetails){
