@@ -17,7 +17,7 @@ public class AdminController {
         return "Success API is working successfully";
     }
     @GetMapping("/testApi")
-    public String Test2(){
+    public String Test5(){
         return "Success API is working successfully";
     }
 
